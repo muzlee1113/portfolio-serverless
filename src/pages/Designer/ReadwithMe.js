@@ -39,6 +39,7 @@ function ReadwithMe() {
                         <li className="p">Different books and reading materials are divided into three levels matching the students’ Lexile scores</li>
                     </ul>
                     <img className="project_illustration_small" src={process.env.PUBLIC_URL + "/images/ReadwithMe/level.png"} />
+                    <div className="divider"></div>
                     <p><b>2. Guided Reading</b></p>
                     <br />
                     <ul>
@@ -57,6 +58,7 @@ function ReadwithMe() {
                         <p>Parents’ involvement is important for the students, the products request parents’ participation in reading by asking them to film the final presentation project or take part in a family discussion of the reading.</p>
                         <img className="project_illustration_extrasmall" src={process.env.PUBLIC_URL + "/images/ReadwithMe/parentsEngagement.png"} />
                     </ul>
+                    <div className="divider"></div>
                     <p><b>3. Progress recording</b></p>
                     <br />
                     <ul>

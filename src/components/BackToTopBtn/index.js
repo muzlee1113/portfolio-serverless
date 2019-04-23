@@ -28,7 +28,7 @@ class BackToTopBtn extends Component {
 
     render() {
         return <Button variant="outline-dark" title='Back to top' className='scroll'
-            onClick={() => { this.scrollToTop(); }}><i className="fas fa-caret-up"></i></Button>;
+            onClick={() => { this.scrollToTop(); }}><i className="fas fa-caret-up arrow-up"></i></Button>;
     }
 }
 

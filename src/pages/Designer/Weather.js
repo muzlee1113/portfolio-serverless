@@ -127,7 +127,7 @@ function Weather() {
                     <p>3.2 Since alerts are considered as distractions, to be less intrusive, they should <b>show up ONLY when when weather information is needed.</b>.</p>
                     <img className="project_illustration" src={process.env.PUBLIC_URL + "/images/Weather/alerts.png"} />
                     <br/>
-                    <p>3.3 3) Users should be given the freedom to <b>control</b> the form, frequency, and situations of the alerts.</p>
+                    <p>3.3 Users should be given the freedom to <b>control</b> the form, frequency, and situations of the alerts.</p>
                     <img className="project_illustration_medium" src={process.env.PUBLIC_URL + "/images/Weather/stop_alerts.png"} />
                     
                 </section>

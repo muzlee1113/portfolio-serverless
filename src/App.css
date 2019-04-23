@@ -133,6 +133,9 @@ li{
   .leading-text {
       font-size: 3.5vw;
   }
+  #logo {
+    left: 1.2em;
+  }
 }
 
 @media (max-width: 680px) {
@@ -140,8 +143,13 @@ li{
       font-size: 8vw;
   }
   .leading-text{
-  font-size: 5vw;
+    font-size: 5vw;
   }
+  #logo {
+    height: 36px;
+  }
+
+  
 }
 
 @media (max-width: 370px) {
@@ -612,6 +620,9 @@ project_headerImg{
   }
   .link{
     font-size: 10pt
+  }
+  #logo {
+    height: 30px;
   }
 }
 

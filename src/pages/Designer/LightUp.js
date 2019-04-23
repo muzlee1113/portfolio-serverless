@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Col, Row } from 'react-bootstrap';
+import BackToTopBtn from "../../components/BackToTopBtn"
 
 
 
@@ -115,7 +116,7 @@ function LightUp() {
                 <p><b>Put myself in users' shoes</b></p>
                 <p>When I played a role as a customer, dragging a suitcase, trying to open the light in a hotel room, and getting up from the bed and trying to open a dim light in pitch-dark, I found that empathy asked one to feeling with others, to experience and, therefore, understand what others experienced.</p>
             </section>
-            
+            <BackToTopBtn/>
         </div>
         </>)
 }

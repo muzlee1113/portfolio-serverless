@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Col, Row } from 'react-bootstrap';
+import BackToTopBtn from "../../components/BackToTopBtn"
 
 
 
@@ -19,7 +20,7 @@ function PhotoMe() {
                     <p>I always felt frustrated when I asked my boyfriend to take a picture of me. Describing what I want, posing awkwardly in front of a bunch of strangers, the whole experience always ended up with piles of unsatisfactory portraits, lying in my phone. And I found that I was not alone.</p>
                     <br/>
                     <p><b>“Me in My Boyfriend's Camera”</b> became a hot discussion topic on the Internet in China. Many girls complained that their boyfriends made them look three times fatter and ungainly in the photo. A decent portrait by boyfriend has become a luxury.</p>
-                    <img className="project_headerImg" src={process.env.PUBLIC_URL + "/images/PhotoMe/intro.png"} />
+                    <img className="project_illustration" src={process.env.PUBLIC_URL + "/images/PhotoMe/intro.png"} />
                     <p className="project_caption">The pictures a girl post online. The left is her expectation and the right is the actual photo taken by her boyfriend. She commented that: “I really don’t want to admit that it’s me.”</p>
                     <p>In the U.S., a new word, <b>“Instagram Husband”</b>, was coined, referring to dudes who are responsible for taking photos for their Instagram famous girls but more often than not fail the job. In fact, it is not the only husband that screws up. Parents and friends all do. Something is certainly not working.</p>
                 </section>
@@ -191,6 +192,7 @@ function PhotoMe() {
                     <p>The final design tries to help people better communicate their thoughts by providing common grounds. It doesn't look forward to saving people from verbose talks about how to take that pictures. On the contrary, it serves a prompt to make people talk and talk better.</p>
                 </section>
             </div>
+            <BackToTopBtn/>
         </>)
 }
 

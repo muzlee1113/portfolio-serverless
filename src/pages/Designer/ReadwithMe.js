@@ -1,4 +1,5 @@
 import React from "react";
+import BackToTopBtn from "../../components/BackToTopBtn"
 
 
 function ReadwithMe() {
@@ -76,6 +77,7 @@ function ReadwithMe() {
                     <p>Designers should strive to meet user needs, make correct decisions for them instead of blindly catering to user wants. Many parents looked for a solution that can lead their children to read with their hands off. Even if we knew that lack of time is a huge problem faced by these parents, we still believed that parents’ engagement in the reading process is essential for the cultivation of a student’s reading habit and for the development of his or her interest in reading. Therefore, instead of freeing them from the process, the final design includes different steps to involve parents into students’ reading experience.
                     </p>
                 </section>
+                <BackToTopBtn/>
             </div>
         </>)
 }

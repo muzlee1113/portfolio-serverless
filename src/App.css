@@ -160,7 +160,7 @@ li{
   grid-gap: 30px;
   max-width: 1040px;
   margin: 0 auto 30px;
-  margin-top: 20px;
+  margin-top: 6vh;
   transition: opacity 1s linear;
 
 } 
@@ -308,7 +308,7 @@ article:hover .code {
   font-family: 'Open Sans', sans-serif;
   font-size: 17pt;
   line-height: 26pt;
-  margin-top: 60px;
+  margin-top: 10vh;
 }
 
 h1{
@@ -317,6 +317,15 @@ h1{
   font-size: 55pt;
   font-weight: 700
 }
+
+.hi_a{
+  color: black
+}
+
+.hi_a:hover{
+  color: gray
+}
+
 
 h2{
   font-size: 17pt;
@@ -363,7 +372,7 @@ h6{
 p, .p{
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
-  line-height: 1.3em
+  line-height: 1.5em
 }
 
 
@@ -519,7 +528,7 @@ p, .p{
 
 h1{
 
-  font-size: 40pt;
+  font-size: 36pt;
 }
 
 h2{
@@ -528,7 +537,7 @@ h2{
 }
 
 h3{
-  font-size: 16pt;
+  font-size: 12pt;
 
 }
 
@@ -550,7 +559,7 @@ h6{
 
 
 p, .p{
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.3em
 }
@@ -558,6 +567,35 @@ p, .p{
 
 .project_info{
   font-size: 10pt;
+  line-height: 1.2em
+}
+
+project_headerImg{
+  margin-top: 1em;
+}
+
+
+
+.project_illustration{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+.project_illustration_medium{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+.project_illustration_small{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.project_illustration_extrasmall{
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 

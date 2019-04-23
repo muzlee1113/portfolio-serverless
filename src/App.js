@@ -19,6 +19,8 @@ import PhotoMe from "./pages/Designer/PhotoMe"
 import Weather from "./pages/Designer/Weather"
 import LightUp from "./pages/Designer/LightUp"
 import BoardingPass from "./pages/Designer/BoardingPass"
+import WIS from "./pages/Developer/WIS"
+
 
 
 
@@ -49,6 +51,7 @@ class App extends Component {
             <Route exact path="/work/weather" component={Weather} />
             <Route exact path="/work/lightup" component={LightUp} />
             <Route exact path="/work/boardingpass" component={BoardingPass} />
+            <Route exact path="/work/WIS" component={WIS} />
             <Route component={NoMatch} />
           </Switch>
           <Footer/>

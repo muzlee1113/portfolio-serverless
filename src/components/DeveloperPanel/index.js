@@ -1,24 +1,28 @@
 
 import React from "react";
-
+import {
+    Link 
+} from "react-router-dom";
 
 function DeveloperPanel(){
 
     return(
         <section className="cards" id="developer_panel">
             <article>
-                <a href="http://www.whats-in-store.net/">
+            <Link to="/work/WIS">
+                {/* <a href="http://www.whats-in-store.net/"> */}
                     <div className="cardcontainer">
                         <img className="article-img" src={process.env.PUBLIC_URL + "/images/D00WIS.png"} alt=" "/>
                         <div className="overlay" id="imgWIS">
                             <div className="article-title">
                                 <h5>What's In Store</h5>
-                                <h6>A tool for business owner to manage their inventories online.</h6>
+                                <h6>A helpful tool for people to set up online shop and manage their inventories.</h6>
                                 <h6>React | Express | MongoDB</h6>
                             </div>
                         </div>
                     </div>
-                </a>
+                {/* </a> */}
+            </Link>
                 <a href="https://github.com/jakescheele/whats-in-store">
                     <img className="code" src={process.env.PUBLIC_URL+"/images/code.png"} alt=" "/>
                 </a>
@@ -47,30 +51,13 @@ function DeveloperPanel(){
                         <div className="overlay" id="imgNews">
                             <div className="article-title">
                                 <h5>News Digest</h5>
-                                <h6>A web application that allows users to read, save and note NYT News.</h6>
+                                <h6>A web application that allows users to read, save and note scraped NYT News.</h6>
                                 <h6>Handlebars | Express | MongoDB </h6>
                             </div>
                         </div>
                     </div>
                 </a>
                 <a href="https://github.com/muzlee1113/newsdigest">
-                    <img className="code" src={process.env.PUBLIC_URL+"/images/code.png"} alt=" "/>
-                </a>
-            </article>
-            <article>
-                <a href="https://googlebooksbyyuwen.herokuapp.com/">
-                    <div className="cardcontainer">
-                        <img className="article-img" src={process.env.PUBLIC_URL+"/images/D00GoogleBook.png"} alt=" "/>
-                        <div className="overlay" id="imgGoogleBook">
-                            <div className="article-title" style={{"color":"black"}}>
-                                <h5>Google Book</h5>
-                                <h6>A web application that allow users to search and save books.</h6>
-                                <h6>React| MongoDB | Express</h6>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/muzlee1113/googlebooks">
                     <img className="code" src={process.env.PUBLIC_URL+"/images/code.png"} alt=" "/>
                 </a>
             </article>
@@ -123,24 +110,6 @@ function DeveloperPanel(){
                     </div>
                 </a>
                 <a href="https://github.com/muzlee1113/GifTastic">
-                    <img className="code" src={process.env.PUBLIC_URL+"/images/code.png"} alt=" "/>
-                </a>
-            </article>
-            <article>
-                <a href="https://drive.google.com/open?id=1PDLzrk75R6gNyPMB3-_W_WywX-euxVJa">
-                    <div className="cardcontainer">
-                        <img className="article-img" src={process.env.PUBLIC_URL+"/images/D00Bamazon.png"} alt=" "/>
-                        <div className="overlay" id="imgBamazon">
-                            <div className="article-title" style={{"color":"black"}}>
-                                <h5>Bamazon</h5>
-                                <h6>A node.js application that run to simulate Amazon with customer, manager and
-                                    supervisor mode.</h6>
-                                <h6>Node.js | MySQL</h6>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/muzlee1113/bamazon">
                     <img className="code" src={process.env.PUBLIC_URL+"/images/code.png"} alt=" "/>
                 </a>
             </article>

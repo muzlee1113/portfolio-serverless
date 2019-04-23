@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Col, Row } from 'react-bootstrap';
+import BackToTopBtn from "../../components/BackToTopBtn"
 
 
 
@@ -34,6 +34,7 @@ function BoardingPass() {
                 <img className="project_illustration_medium" src={process.env.PUBLIC_URL + "/images/BoardingPass/boarding_pass_blank.png"} style={{"boxShadow": "0 4px 8px 0 rgba(0, 0, 0, 0.2)"}}/>
                 <p className="project_caption text-center">The blank boarding pass.</p>
             </section>
+            <BackToTopBtn/>
         </div>
         </>)
 }

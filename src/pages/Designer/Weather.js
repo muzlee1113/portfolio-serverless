@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Col, Row } from 'react-bootstrap';
+import BackToTopBtn from "../../components/BackToTopBtn"
 
 
 
@@ -139,6 +140,7 @@ function Weather() {
                     <p><b>Professional critiques are valuable.</b></p>
                     <p>Besides user testing, advice from other designers is important. My discussion with several UX designer about whether Apple users are accustomed to frequent alerts led me to reconsider the different design environments and user habits. Finally, I decided to provide weather information when people are using Calendar in form of a weather brief embedded in the Calendar, instead of a pop-up notification. </p>
                 </section>
+                <BackToTopBtn/>
             </div>
         </>)
 }

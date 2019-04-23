@@ -49,9 +49,11 @@ function LightUp() {
                 <p>We based our design on a close study of AJ Taft, owner of Entheos Vibrations, a local small business in Minneapolis producing and selling lapel pins, sublimated  clothing, wire wrapped jewelry and hats.</p>
                 <img className="project_illustration" src={process.env.PUBLIC_URL + "/images/WIS/research.png"} />
                 <p>Over the last year, inventory has tripled and AJ found himself needing a better way to keep track of his business than paper and pen. In research we found the following needs of small business owners:</p>
+                <br/>
                 <ul>
                     <li className="p"><b>An easy way to keep track of the inventory and sales</b></li> 
                     <p>When he was not working on site (such as concert) to sell products, AJ spent most of his time managing his online shop, checking and updating stocks and sales of different products. Some of these steps are logically correlated but actually achieved separately and manually.</p>
+                    <br/>
                     <li className="p"><b>An one-step checkout process</b></li> 
                     <p>When working on site, AJ needs to checkout a product as quickly as possible so that the customers will not wait for a long time. And hopefully, he wants to finish the transaction online instead of doing the accounting in a busy and chaotic selling booth.</p>
                 </ul>

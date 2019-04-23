@@ -509,7 +509,7 @@ p, .p{
 }
 
 @media (max-width: 1041px) {
-  .about_content, .project_container, .footer_content{
+  .text, .project_container, .footer_content{
     margin-left: 16px;
     margin-right: 16px;
   }
